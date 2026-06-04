@@ -119,7 +119,7 @@ function configure_read_ahead_kb_values() {
 	if [ $MemTotal -le 4194304 ]; then
 		ra_kb=128
 	else
-		ra_kb=512
+		ra_kb=128
 	fi
 	if [ -f /sys/block/mmcblk0/bdi/read_ahead_kb ]; then
 		echo $ra_kb > /sys/block/mmcblk0/bdi/read_ahead_kb
