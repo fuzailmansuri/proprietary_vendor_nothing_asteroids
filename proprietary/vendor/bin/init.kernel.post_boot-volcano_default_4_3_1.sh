@@ -86,10 +86,10 @@ if [ -d /proc/sys/walt ]; then
 	echo 1 > /sys/devices/system/cpu/cpu7/core_ctl/enable
 
 	# Setting b.L scheduler parameters
-	echo 65 75 > /proc/sys/walt/sched_downmigrate
-	echo 71 85 > /proc/sys/walt/sched_upmigrate
-	echo 75 > /proc/sys/walt/sched_group_downmigrate
-	echo 90 > /proc/sys/walt/sched_group_upmigrate
+	echo 65 85 > /proc/sys/walt/sched_downmigrate
+	echo 71 95 > /proc/sys/walt/sched_upmigrate
+	echo 85 > /proc/sys/walt/sched_group_downmigrate
+	echo 100 > /proc/sys/walt/sched_group_upmigrate
 	echo 1 > /proc/sys/walt/sched_walt_rotate_big_tasks
 	echo 51 > /proc/sys/walt/sched_min_task_util_for_boost
 	echo 35 > /proc/sys/walt/sched_min_task_util_for_colocation
@@ -129,9 +129,9 @@ if [ -d /proc/sys/walt ]; then
 	echo 0 > /sys/devices/system/cpu/cpufreq/policy7/walt/down_rate_limit_us
 	echo 0 > /sys/devices/system/cpu/cpufreq/policy7/walt/up_rate_limit_us
 
-	echo 1 > /sys/devices/system/cpu/cpufreq/policy0/walt/pl
-	echo 1 > /sys/devices/system/cpu/cpufreq/policy4/walt/pl
-	echo 1 > /sys/devices/system/cpu/cpufreq/policy7/walt/pl
+	echo 0 > /sys/devices/system/cpu/cpufreq/policy0/walt/pl
+	echo 0 > /sys/devices/system/cpu/cpufreq/policy4/walt/pl
+	echo 0 > /sys/devices/system/cpu/cpufreq/policy7/walt/pl
 	echo 1 > /proc/sys/walt/sched_conservative_pl
 
 	echo 595200 > /sys/devices/system/cpu/cpufreq/policy0/walt/rtg_boost_freq
