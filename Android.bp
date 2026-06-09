@@ -26287,8 +26287,7 @@ android_app_import {
     name: "NTCamera",
     owner: "nothing",
     apk: "proprietary/system_ext/priv-app/NTCamera/NTCamera.apk",
-    preprocessed: true,
-    presigned: true,
+    certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
