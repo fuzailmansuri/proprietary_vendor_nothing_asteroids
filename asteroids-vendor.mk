@@ -899,7 +899,9 @@ PRODUCT_PACKAGES += \
     libarcsoft_dark_vision_raw \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_preview \
+    libarcsoft_hdr_detection \
     libarcsoft_lensstaindetection \
+    libarcsoft_mf_superresolution \
     libarcsoft_panorama \
     libarcsoft_portrait_distortion_correction \
     libarcsoft_qnnhtp \
@@ -955,6 +957,7 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libcommonchiutils \
     libconfigdb \
+    libcpion \
     libdataitems \
     libdiag \
     libdigital-dimming \
@@ -1079,6 +1082,7 @@ PRODUCT_PACKAGES += \
     libntcamyuv \
     libntf_vendor \
     libntofflinepostproc \
+    liboemcrypto \
     liboffscreenpoweroptfeature \
     libopencv \
     libopencv3a \
@@ -1212,6 +1216,7 @@ PRODUCT_PACKAGES += \
     libtlpd_crypto \
     libtlpd_internal \
     libtlpd_logger \
+    libtrustedapploader \
     libubifocus \
     libubwcp \
     libvega_common \
@@ -1314,6 +1319,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
+    vendor.qti.hardware.camera.postproc@1.0 \
     vendor.qti.hardware.data.cneaidlservice.internal.api-V1-ndk \
     vendor.qti.hardware.data.cneaidlservice.internal.constants-V1-ndk \
     vendor.qti.hardware.data.cneaidlservice.internal.server-V1-ndk \
@@ -1408,6 +1414,7 @@ PRODUCT_PACKAGES += \
     libmmrtpdecoder \
     libmmrtpencoder \
     libntf \
+    libofflineproc_jni \
     libqcc \
     libqcc_file_agent_sys \
     libqccdme \
