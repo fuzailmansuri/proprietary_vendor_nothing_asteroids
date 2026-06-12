@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
     vendor/nothing/asteroids/proprietary/system_ext/etc/permissions/vendor.qti.imsdcservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.imsdcservice.xml \
     vendor/nothing/asteroids/proprietary/system_ext/etc/permissions/vzw_mvs_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vzw_mvs_permissions.xml \
+    vendor/nothing/asteroids/proprietary/system_ext/etc/permissions/privapp-permissions-NothingExperience.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-NothingExperience.xml \
     vendor/nothing/asteroids/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/nothing/asteroids/proprietary/system_ext/etc/qspa/qspa_default.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qspa/qspa_default.rc \
     vendor/nothing/asteroids/proprietary/system_ext/etc/seccomp_policy/tcmd.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/tcmd.policy \
@@ -1477,6 +1478,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     MyVerizonServices \
     NTCamera \
+    NothingExperience \
     QtiTelephony \
     WfdService \
     dpmserviceapp \
