@@ -2,6 +2,7 @@
 # Automatically generated file. DO NOT MODIFY
 #
 
+
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nothing/asteroids
 
@@ -637,7 +638,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    vendor.qti.diaghal-V1-ndk \
     btaudio_offload_if \
     com.qti.eeprom.arcanine_back_imx882_eeprom \
     com.qti.eeprom.arcanine_back_s5kjn5_eeprom \
@@ -808,22 +808,8 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0 \
-    com.qualcomm.qti.imscmservice@2.0 \
-    com.qualcomm.qti.imscmservice@2.1 \
-    com.qualcomm.qti.imscmservice@2.2 \
     com.qualcomm.qti.mcx.usecase.extension \
-    com.qualcomm.qti.uceservice@2.0 \
-    com.qualcomm.qti.uceservice@2.1 \
-    com.qualcomm.qti.uceservice@2.2 \
-    com.qualcomm.qti.uceservice@2.3 \
     deviceInfoServiceModuleNr \
-    eglSubDriverAndroid \
-    libEGL_adreno \
-    libGLESv1_CM_adreno \
-    libGLESv2_adreno \
-    libVkLayer_ADRENO_qprofiler \
-    libq3dtools_adreno \
-    libq3dtools_esx \
     android.hardware.bluetooth.audio-impl-qti \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.bluetooth@1.1-impl-qti \
@@ -838,7 +824,6 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     fingerprint.default \
     libqtigatekeeper \
-    vendor.qti.hardware.alarm-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
@@ -849,7 +834,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.wifidisplaysession@1.0-impl \
-    vulkan.adreno \
     lib-imscommon \
     lib-imsdcservice \
     lib-imsdpl \
@@ -863,20 +847,13 @@ PRODUCT_PACKAGES += \
     lib-rtpsl \
     libAlacSwDec \
     libApeSwDec \
-    libCB \
     libCneAppJni \
     libDcfHalFramework \
     libDcfHalLogger \
     libDcfHalQtiMutex \
-    libEvrcSwCodec \
     libFileMux_proprietary \
     libFlacSwDec \
-    libGPreqcancel \
-    libGPreqcancel_svc \
-    libOpenCL \
     libOpenCL_adreno \
-    libQSEEComAPI \
-    libQcelp13SwCodec \
     libQnnHtp \
     libQnnSystem \
     libQtiRilLoadable \
@@ -889,13 +866,8 @@ PRODUCT_PACKAGES += \
     lib_bt_ble \
     lib_bt_bundle \
     lib_lvacfs \
-    libadaptlaunch \
     libadm \
-    libadreno_app_profiles \
     libadreno_compiler_cl \
-    libadreno_utils \
-    libadsp_default_listener \
-    libadsprpc \
     libagm \
     libagm_compress_plugin \
     libagm_mixer_plugin \
@@ -903,8 +875,6 @@ PRODUCT_PACKAGES += \
     libagmclient \
     libaidenoiser \
     libaidenoiserv2 \
-    libapengine \
-    libappclassifier \
     libar-acdb \
     libar-gpr \
     libar-gsl \
@@ -933,7 +903,6 @@ PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libaudiochargerlistener \
     libaudiofeaturestats \
-    libbacklight-calib \
     libbatching \
     libbatterylistener \
     libbitmlengine \
@@ -961,35 +930,18 @@ PRODUCT_PACKAGES += \
     libcapiv2svarnnvendor \
     libcapiv2udk7vendor \
     libcapiv2uvvendor \
-    libcdfw \
-    libcdfw_remote_api \
-    libcdsp_default_listener \
-    libcdsprpc \
     libchifeature2 \
     libchilog \
-    libclstc_algorithm_adapter \
-    libclstc_gcp_adapter \
-    libclstc_tm \
     libcne \
     libcneapiclient \
     libcneoplookup \
-    libcolor-default \
     libcom.qti.chinodeutils \
     libcommonchiutils \
     libconfigdb \
     libcustomva_intf \
-    libdataitems \
-    libdiag \
-    libdigital-dimming \
-    libdisp-aba \
     libdisplayconfig.qti \
     libdisplaydebug \
-    libdisplayqos \
-    libdisplayskuutils \
     libdpmqmihal \
-    libdpps \
-    libdrmfs \
-    libdrmtime \
     libdrmutils \
     libdsd2pcm \
     libdsi_netctrl \
@@ -998,28 +950,19 @@ PRODUCT_PACKAGES += \
     libeai_float \
     libembmsservice \
     libengineplugin \
-    libfastcvdsp_stub \
-    libfastcvopt \
-    libfeutils \
     libfilefinder \
     libfmpal \
-    libgame_enhance \
-    libgamepoweroptfeature \
     libgeofencing \
     libgf_hal \
     libgnss \
-    libgnsspps \
     libgps.utils \
     libgpt \
     libgpu_tonemapper \
     libgralloc.qti \
     libgralloccore \
     libgrallocutils \
-    libgsl \
     libhdr10plus \
-    libhdr_backlight_adapter \
     libhdr_stub \
-    libhdr_tm \
     libhdrdynamic \
     libhdrdynamicootf \
     libhfp_pal \
@@ -1028,63 +971,33 @@ PRODUCT_PACKAGES += \
     libhotword_intf \
     libiccprofile \
     libidl \
-    libintervmipc \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
     libisphwsetting \
-    libizat_client_api \
-    libizat_core \
     libjnihelper \
     libjpege \
-    libkcl \
-    libkernelmanager \
-    libkeymasterdeviceutils \
-    libkeymasterutils \
-    liblbs_core \
-    liblearningmodule \
-    liblightninglaunches \
     liblistensoundmodel2vendor \
-    libllvm-glnext \
-    libllvm-qcom \
-    libllvm-qgl \
-    liblmthermallistner \
-    liblmutils-ns \
     libloadalgo_stub \
-    libloc_api_v02 \
-    libloc_api_wds \
     libloc_base_util \
     libloc_core \
     libloc_eng_hub \
     libloc_mq_client \
-    libloc_qwes_iface \
-    libloc_ril_client \
-    libloc_socket \
     libloc_util \
     liblocation_api \
     liblocation_api_msg \
     liblocation_client_api \
     liblocation_integration_api \
-    liblocationservice \
-    liblocationservice_glue \
     liblocdiagiface \
-    liblowi_client \
     liblowi_common \
-    liblowi_wifihal \
     liblvacfs_wrapper \
     liblx-ar_util \
     liblx-osal \
     libmcs \
     libmctfengine_stub \
     libmdmdetect \
-    libmdsprpc \
-    libmemperfd \
-    libmemutils \
-    libmeters-ns \
-    libmeters \
     libmfGhostDetection \
     libmfec \
-    libminkdescriptor \
     libminksocket_vendor \
     libmlremosaicsnapshot \
     libmmcamera_bestats \
@@ -1122,52 +1035,23 @@ PRODUCT_PACKAGES += \
     libntcamyuv \
     libntf_vendor \
     libntofflinepostproc \
-    liboffscreenpoweroptfeature \
     libopencv \
     libopencv3a \
     libopestriping \
-    libops \
     libos \
     libpal_net_if \
     libpalclient \
     libpasrutils \
     libpdmapper \
     libpdnotifier \
-    libperfconfig \
-    libperfgluelayer \
-    libperfioctl \
     libperipheral_client \
     libpfr \
     libportrait_repair_qnn \
-    libpowercore \
-    libprefapps \
-    libprekill \
-    libprocomp \
     libprotobuf-cpp-full-21.7 \
     libprotobuf-cpp-lite-21.7 \
-    libq-perflog \
-    libqapesdk \
-    libqc2audio_base \
-    libqc2audio_basecodec \
-    libqc2audio_core \
-    libqc2audio_hooks \
-    libqc2audio_hwaudiocodec \
-    libqc2audio_platform \
-    libqc2audio_swaudiocodec \
-    libqc2audio_utils \
-    libqcbor \
-    libqcc_file_agent \
     libqcc_sdk \
     libqcmaputils \
-    libqcodec2_base \
-    libqcodec2_basecodec \
-    libqcodec2_core \
-    libqcodec2_filterbase \
-    libqcodec2_hooks \
     libqcodec2_imgtxrfilter \
-    libqcodec2_platform \
-    libqcodec2_utils \
-    libqcodec2_v4l2codec \
     libqcrilDataModule \
     libqcrilNr \
     libqcrilNrCellInfoModule \
@@ -1184,13 +1068,10 @@ PRODUCT_PACKAGES += \
     libqcrildatactl \
     libqcrildataqos \
     libqdMetaData \
-    libqdcm-algo \
-    libqdcm-json-mode-parser \
     libqdi \
     libqdpr \
     libqdutils \
     libqesdk2_0 \
-    libqisl \
     libqll \
     libqll10 \
     libqllengine \
@@ -1203,77 +1084,47 @@ PRODUCT_PACKAGES += \
     libqmi_encdec \
     libqmiservices \
     libqms \
-    libqrtr \
-    libqrtrclient \
-    libqseed3 \
     libqsegnet \
     libqservice \
     libqsh \
     libqsh_ble_pb \
     libqshcamera \
     libqsocket \
-    libqspm-mem-utils-vendor \
-    libqti-iopd-client \
-    libqti-iopd \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-qesdk-secure \
-    libqti-util \
     libqtigefar \
     libqtiidentitycredential \
     libqtikeymint \
     librcc \
-    librcmask \
     librender_lib \
     libril-db \
     libril-legacy \
     librilqmimiscservices \
-    librpmb \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
     libscveObjectTracker \
     libscveObjectTracker_stub \
-    libsdedrm \
-    libsdm-color \
-    libsdm-colormgr-algo \
-    libsdm-disp-vndapis \
     libsdmcore \
     libsdmdal \
-    libsdmextension \
     libsdmutils \
-    libsdsprpc \
     libsensor_extension \
-    libsensorslog \
     libsfeShiftExtrapolation \
     libshsc \
-    libsilkyscrolls \
-    libskewknob \
-    libsnapdragoncolor-manager \
-    libsnapdragoncolor-qdcm \
     libsndcardparser \
     libsns_direct_channel_stub \
     libsnsapi \
-    libsnsdiaglog \
     libsnsutils \
     libsoc_helper \
     libspl \
-    libssc_default_listener \
-    libssd \
     libstmobile_effect \
     libswregistrationalgo \
-    libsynergy_loc_api \
     libsynx \
     libsys_info_cache \
     libsystem_health_mon \
     libtaautoload \
     libtensorflowlite_c \
-    libtestutils \
     libtfestriping \
     libthermalclient \
     libthreadutils \
-    libtime_genoff \
-    libtinyxml2_1 \
     libtlpd \
     libtlpd_configmgr \
     libtlpd_crypto \
@@ -1284,10 +1135,7 @@ PRODUCT_PACKAGES += \
     libvega_common \
     libvendor.goodix.hardware.biometrics.fingerprint \
     libvideoml \
-    libvideooptfeature \
-    libvideotxr \
     libvidhance \
-    libvmfilexfer \
     libvmmem \
     libvui_dmgr \
     libvui_dmgr_client \
@@ -1319,7 +1167,6 @@ PRODUCT_PACKAGES += \
     libwms \
     libwqe \
     libxml \
-    libxtadapter \
     qcrilInterfaces \
     qcrilIntermodulemsgs \
     qcrilMarshal \
@@ -1342,7 +1189,6 @@ PRODUCT_PACKAGES += \
     qcril_client \
     qcrild_libqcrilnr \
     qcrild_libqcrilnrutils \
-    qti.video.utils.videobufferlayout \
     qtiPeripheralMgr \
     qtiril-utils \
     qtiwakelock \
@@ -1369,13 +1215,10 @@ PRODUCT_PACKAGES += \
     vendor.noth.hardware.sensor.sensor_extension-V1-ndk_platform \
     vendor.qti.ImsRtpService-V1-ndk_vendor \
     vendor.qti.ImsRtpService-aidl-Impl \
-    vendor.qti.data.factoryservice-V1-ndk \
-    vendor.qti.data.mwqemaidlservice-V1-ndk \
     vendor.qti.diaghal@1.0_vendor \
     vendor.qti.gnss-V6-ndk \
     vendor.qti.gnss-service \
     vendor.qti.hardware.AGMIPC@1.0-impl \
-    vendor.qti.hardware.alarm-V1-ndk \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.bttpi-V3-ndk \
@@ -1383,31 +1226,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.qti.hardware.data.cneaidlservice.internal.api-V1-ndk \
-    vendor.qti.hardware.data.cneaidlservice.internal.constants-V1-ndk \
-    vendor.qti.hardware.data.cneaidlservice.internal.server-V1-ndk \
     vendor.qti.hardware.data.connectionaidl-V1-ndk \
-    vendor.qti.hardware.data.connectionfactory-V1-ndk \
-    vendor.qti.hardware.data.dataactivity-V1-ndk \
-    vendor.qti.hardware.data.dynamicddsaidlservice-V1-ndk \
-    vendor.qti.hardware.data.flowaidlservice-V1-ndk \
-    vendor.qti.hardware.data.iwlandata-V1-ndk \
-    vendor.qti.hardware.data.ka-V1-ndk \
-    vendor.qti.hardware.data.lceaidlservice-V1-ndk \
-    vendor.qti.hardware.data.qmiaidlservice-V1-ndk \
     vendor.qti.hardware.dpmaidlservice-V1-ndk_vendor \
-    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.embmsslaidl-V1-ndk \
     vendor.qti.hardware.fm@1.0 \
-    vendor.qti.hardware.iop@2.0 \
-    vendor.qti.hardware.limits@1.0 \
-    vendor.qti.hardware.limits@1.1 \
     vendor.qti.hardware.limits@1.2 \
-    vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk \
     vendor.qti.hardware.pal@1.0-impl \
-    vendor.qti.hardware.perf2-V1-ndk \
-    vendor.qti.hardware.power.powermodule-V1-ndk \
-    vendor.qti.hardware.qccsyshal@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.1_vendor \
     vendor.qti.hardware.qccsyshal@1.2_vendor \
     vendor.qti.hardware.qseecom-V1-ndk \
@@ -1425,22 +1249,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_server-V1-ndk \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
-    vendor.qti.ims.callcapability@1.0 \
-    vendor.qti.ims.callcapabilityaidlservice-V1-ndk \
-    vendor.qti.ims.callinfo@1.0 \
-    vendor.qti.ims.configaidlservice-V1-ndk \
-    vendor.qti.ims.connectionaidlservice-V1-ndk \
-    vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.factory@1.1 \
-    vendor.qti.ims.factoryaidlservice-V1-ndk \
-    vendor.qti.ims.rcsconfig@2.0 \
-    vendor.qti.ims.rcsconfig@2.1 \
-    vendor.qti.ims.rcssipaidlservice-V1-ndk \
-    vendor.qti.ims.rcsuceaidlservice-V1-ndk \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.imsrtpservice@3.1_vendor \
-    vendor.qti.latencyaidlservice-V1-ndk \
-    vendor.qti.memory.pasrmanager-V1-ndk \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
     vendor.qti.qccvndhal_aidl-V1-ndk_vendor \
@@ -1449,8 +1259,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qesdhal@1.1 \
     vendor.qti.qesdhal@1.2 \
     vendor.qti.qesdhal@1.3 \
-    vendor.qti.qspmhal-V1-ndk \
-    vendor.qti.qspmhal-impl \
     vendor.qti.voiceprint@1.0 \
     libQnnHtpV73 \
     libQnnHtpV73Skel \
@@ -1463,65 +1271,8 @@ PRODUCT_PACKAGES += \
     libmlawbpostproc_dsp_skel \
     libtfadsp_rx \
     libtfadsp_tx \
-    com.qualcomm.qti.dpm.api@1.0 \
-    lib-imsvideocodec \
-    lib-imsvt \
-    lib-imsvtextutils \
-    lib-imsvtutils \
-    libdiag_system \
-    libdiagatbparser_system \
-    libdpmctmgr \
-    libdpmfdmgr \
-    libdpmframework \
-    libdpmtcm \
     libencoderjpeg_jni \
-    libimscamera_jni \
-    libimsmedia_jni \
-    libmmosal \
-    libmmparser_lite \
-    libmmrtpdecoder \
-    libmmrtpencoder \
     libntf \
-    libqcc \
-    libqcc_file_agent_sys \
-    libqccdme \
-    libqccfileservice \
-    libwfdavenhancements \
-    libwfdclient \
-    libwfdcommonutils \
-    libwfdconfigutils \
-    libwfddisplayconfig \
-    libwfdmminterface \
-    libwfdmmsink \
-    libwfdmmsrc_system \
-    libwfdnative \
-    libwfdrtsp \
-    libwfdservice \
-    libwfdsinksm \
-    libwfduibcinterface \
-    libwfduibcsink \
-    libwfduibcsinkinterface \
-    libwfduibcsrc \
-    libwfduibcsrcinterface \
-    vendor.qti.ImsRtpService-V1-ndk \
-    vendor.qti.ImsRtpService-V2-ndk \
-    vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.dpmaidlservice-V1-ndk \
-    vendor.qti.hardware.dpmservice@1.0 \
-    vendor.qti.hardware.qccsyshal@1.0 \
-    vendor.qti.hardware.qccsyshal@1.1 \
-    vendor.qti.hardware.qccsyshal@1.2-halimpl \
-    vendor.qti.hardware.qccsyshal@1.2 \
-    vendor.qti.hardware.qccvndhal@1.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
-    vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
-    vendor.qti.ims.datachannelservice-V1-ndk \
-    vendor.qti.ims.datachannelservice-V2-ndk \
-    vendor.qti.imsrtpservice@3.0 \
-    vendor.qti.imsrtpservice@3.1 \
-    vendor.qti.qccsyshal_aidl-V1-ndk \
-    vendor.qti.qccsyshal_aidl-halimpl \
-    vendor.qti.qccvndhal_aidl-V1-ndk \
     com.google.android.widevine.nonupdatable \
     CACertService \
     CneApp \
@@ -1531,52 +1282,14 @@ PRODUCT_PACKAGES += \
     TrustZoneAccessService \
     TxPwrAdmin \
     VZWAPNLib \
-    uimgbaservice \
-    uimremoteclient \
-    uimremoteserver \
     AppDirectedSMSService \
     EuiccGoogle \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     WfcActivation \
-    QCC \
-    QtiTelephonyService \
     MyVerizonServices \
-    QtiTelephony \
-    WfdService \
-    dpmserviceapp \
-    ims \
-    qcrilmsgtunnel \
-    WfdCommon \
     nt-telephony-interface \
-    uimgbalibrary \
-    uimgbamanagerlibrary \
-    uimremoteclientlibrary \
-    uimremoteserverlibrary \
-    uimservicelibrary \
     com.android.hotwordenrollment.common.util_WIDEBAND \
-    com.qti.dpmframework \
-    dpmapi \
-    qcrilhook \
-    vendor.qti.ims.connection-V1.0-java \
-    vendor.qti.ims.connectionaidlservice-V1-java \
-    vendor.qti.ims.datachannelservice-V1-java \
-    vendor.qti.ims.datachannelservice-V2-java \
-    vendor.qti.ims.factory-V2.0-java \
-    vendor.qti.ims.factory-V2.1-java \
-    vendor.qti.ims.factory-V2.2-java \
-    vendor.qti.ims.factoryaidlservice-V1-java \
-    vendor.qti.ims.imscmaidlservice-V1-java \
-    vendor.qti.ims.rcssip-V1.0-java \
-    vendor.qti.ims.rcssip-V1.1-java \
-    vendor.qti.ims.rcssip-V1.2-java \
-    vendor.qti.ims.rcssipaidlservice-V1-java \
-    vendor.qti.ims.rcsuce-V1.0-java \
-    vendor.qti.ims.rcsuce-V1.1-java \
-    vendor.qti.ims.rcsuce-V1.2-java \
-    vendor.qti.ims.rcsuceaidlservice-V1-java \
-    vendor.qti.ims.uceaidlservice-V1-java \
-    vendor.qti.imsdatachannel \
     ImsRtpService-aidl.xml \
     android.hardware.drm-service.xml \
     android.hardware.gnss-aidl-service-qti.xml \
@@ -1593,8 +1306,6 @@ PRODUCT_PACKAGES += \
     atfwd-saidl.xml \
     bluetooth_audio_qti.xml \
     bttpi-saidl.xml \
-    c2_manifest_vendor.xml \
-    c2_manifest_vendor_audio.xml \
     dataconnection-saidl.xml \
     datafactoryservice-saidl.xml \
     deviceinfo-saidl.xml \
@@ -1614,7 +1325,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.provider.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
-    vendor.qti.hardware.alarm.xml \
     vendor.qti.hardware.data.connectionaidl.xml \
     vendor.qti.hardware.data.iwlandata.xml \
     vendor.qti.hardware.display.allocator-service.xml \
@@ -1622,8 +1332,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.embmssl.xml \
     vendor.qti.hardware.lights.service.xml \
     vendor.qti.hardware.limits-service.xml \
-    vendor.qti.hardware.perf2.xml \
-    vendor.qti.hardware.power.powermodule.xml \
     vendor.qti.hardware.qseecom@1.0-service.xml \
     vendor.qti.hardware.radio.am.xml \
     vendor.qti.hardware.radio.ims.xml \
@@ -1635,24 +1343,17 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession-service.xml \
     vendor.qti.ims.factoryaidlservice.xml \
     vendor.qti.qccvndhal_aidl-service.xml \
-    vendor.qti.qspmhal-service.xml \
-    vendor.qti.qccsyshal_aidl-service.xml \
     ATFWD-daemon \
     adpl \
-    adsprpcd \
     audioadsprpcd \
-    cdsprpcd \
     cnd \
-    cnss-daemon \
     diag-router \
     dlsc \
     dpmQmiMgr \
-    dspservice \
     early_eth \
     edgnss-daemon \
     embmsslServer \
     engine-service \
-    feature_enabler_client \
     fm_qsoc_patches \
     android.hardware.bluetooth@1.1-service-qti \
     android.hardware.gatekeeper-service-qti \
@@ -1664,25 +1365,19 @@ PRODUCT_PACKAGES += \
     vendor.noth.hardware.sensor.sensor_extension-service \
     vendor.nothing.hardware.biometrics.fingerprint-service \
     vendor.qti.camera.provider-service_64 \
-    vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.color-service \
     vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.display.demura-service \
-    vendor.qti.hardware.iop@2.0-service \
     vendor.qti.hardware.lights.service \
     vendor.qti.hardware.limits@1.2-service \
-    vendor.qti.hardware.perf2-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
-    vendor.qti.media.c2@1.0-service \
-    vendor.qti.media.c2audio@1.0-service \
     vendor.qti.psiclient@1.0-service \
     ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
     init.kernel.early_boot-memory \
-    init.kernel.post_boot-memory \
     init.kernel.post_boot-volcano \
     init.kernel.post_boot-volcano_2_2_1 \
     init.kernel.post_boot-volcano_3_2_1 \
@@ -1690,43 +1385,29 @@ PRODUCT_PACKAGES += \
     init.kernel.post_boot-volcano_default_4_3_1 \
     init.kernel.post_boot \
     init.qcom.sensors \
-    init.qti.display_boot \
     init.qti.graphics \
-    init.qti.kernel \
     init.qti.media \
     init.qti.qcv \
-    init.qti.write \
     ipacm-diag \
     irsc_util \
     loadalgo \
-    loc_launcher \
-    lowi-server \
-    mlid \
     nicmd \
     ntf-service \
     pd-mapper \
     pm-proxy \
     pm-service \
     port-bridge \
-    power_off_alarm \
-    poweropt-service \
-    ppd \
     qcc-vendor \
-    qdcmss \
     qlm-service \
     qmipriod \
     qms \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
-    qseecomd \
     qti \
     qwesd \
     rmt_storage \
-    sensors.qti \
     shsusrd \
-    slim_daemon \
-    sscrpcd \
     ssgqmigd \
     ssgtzd \
     ssr_diag \
@@ -1737,28 +1418,10 @@ PRODUCT_PACKAGES += \
     time_daemon \
     trusteduilistener \
     vendor.dpmd \
-    vendor.qti.qspmhal-service \
-    vendor_modprobe \
     wfdhdcphalservice \
     wfdvndservice \
     wifidisplayhalservice \
-    xtra-daemon \
-    xtwifi-client \
-    dpmd \
-    qccsyshal@1.2-service \
-    qccsyshal_aidl-service \
-    tcmd \
-    wfdservice64
-
 PRODUCT_PACKAGES += \
-    system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
-    system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     system_ext_priv-app_qcrilmsgtunnel_lib_arm64_libntf_so \
-    system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
     vendor_firmware_wlan_qca_cld_qca6750_WCNSS_qcom_cfg_ini \
-    vendor_lib64_libEGL_adreno_so \
-    vendor_lib64_libGLESv2_adreno_so \
-    vendor_lib64_libq3dtools_adreno_so
-
 PRODUCT_BOOT_JARS += \
-    WfdCommon
