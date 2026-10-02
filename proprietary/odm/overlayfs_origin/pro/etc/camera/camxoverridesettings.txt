@@ -23,7 +23,7 @@ presilNodeRequestDoneTimeout=2000
 
 #sois param
 enableCameraSOISMask=0x1
-SOISOptimizationEnable=FALSE
+SOISOptimizationEnable=0x0
 SOISOTPDataSwap=TRUE
 SOISSensorSamplingRate=500
 SOISDataReportRate=500

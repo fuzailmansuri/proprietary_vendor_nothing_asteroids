@@ -9,4 +9,4 @@ INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb
 /* jiayang.shen@network BELL-4903 */
 INSERT OR REPLACE INTO qcril_emergency_source_voice_table VALUES('602','123','','full');
 INSERT OR REPLACE INTO qcril_emergency_source_voice_table VALUES('602','180','','full');
-/* BELL-4903 end */
+/* BELL-2798 end */
