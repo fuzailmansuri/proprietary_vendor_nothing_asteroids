@@ -537,7 +537,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/nothing/asteroids/proprietary/vendor/etc/st21nfc_conf_base.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf_base.txt \
     vendor/nothing/asteroids/proprietary/vendor/etc/st21nfc_conf_pro.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf_pro.txt \
-    vendor/nothing/asteroids/proprietary/vendor/etc/st54j_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf.txt \
     vendor/nothing/asteroids/proprietary/vendor/etc/st54j_conf_felica.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf_felica.txt \
     vendor/nothing/asteroids/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/nothing/asteroids/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
@@ -590,7 +589,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/vendor/firmware/goodixfp64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp64.mdt \
     vendor/nothing/asteroids/proprietary/vendor/firmware/haptic_config.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/haptic_config.bin \
     vendor/nothing/asteroids/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
-    vendor/nothing/asteroids/proprietary/vendor/firmware/st54j_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54j_fw.bin \
     vendor/nothing/asteroids/proprietary/vendor/firmware/st54j_fw_felica.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54j_fw_felica.bin \
     vendor/nothing/asteroids/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/nothing/asteroids/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
@@ -960,6 +958,7 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcolor-default \
+    libcolorful \
     libcom.qti.chinodeutils \
     libcommonchiutils \
     libconfigdb \
@@ -1470,7 +1469,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccsyshal@1.2 \
     vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
-    vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
+    vendor.qti.hardware.wifidisplaysession_aidl-V2-ndk \
     vendor.qti.ims.datachannelservice-V1-ndk \
     vendor.qti.ims.datachannelservice-V2-ndk \
     vendor.qti.imsrtpservice@3.0 \
