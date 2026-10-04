@@ -80,7 +80,16 @@ ________________________________________________________________________________
                 <Prop Name="vendor.perf.gestureflingboost.enable" Value="true" />
                 <Prop Name="ro.vendor.at_library" Value="libqti-at.so" />
                 <Prop Name="vendor.perf.performancemode.support" Value="true" Target="volcano" />
-                <Prop Name="vendor.perf.topAppRenderThreadBoost.enable" Value="false" Target="volcano" />
+                <!-- topAppRenderThreadBoost: stock Nothing ships this disabled,
+                     but the QCOM Power HAL (PowerHintSession) sends
+                     VENDOR_HINT_PICARD_TOP_APP (0x104A) on every top-app ADPF
+                     session; with the gate disabled the perf HAL rejects the
+                     hint ("104a" error) and mEnableAdpf stays false, so no
+                     adaptive boost is ever applied. Fairphone 6 (same SM7635
+                     SoC) ships no perfconfigstore.xml override at all, i.e.
+                     the mpctl default (enabled). Re-enabled for smooth top-app
+                     rendering; flip back to false to restore stock behavior. -->
+                <Prop Name="vendor.perf.topAppRenderThreadBoost.enable" Value="true" Target="volcano" />
                 <Prop Name="vendor.perf.phr.enable" Value="1" Target="volcano"/>
                 <Prop Name="vendor.perf.phr.hr_min_rate" Value="0.5" Target="volcano"/>
                 <Prop Name="vendor.perf.pfar2.enable" Value="1" Target="volcano"/>
