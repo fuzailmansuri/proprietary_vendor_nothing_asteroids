@@ -61,7 +61,9 @@
     <IgnoredApps>
         <!-- Apps which be excluded for optimization -->
         <App1>com.miHoYo.Yuanshen, com.miHoYo.GenshinImpact</App1>
-        <App2></App2>
+        <App2>com.pubg.imobile, com.tencent.ig, com.tencent.igfit, com.tencent.sngame</App2>
+        <App3>com.tencent.lolm, com.riotgames.league.wildrift</App3>
+        <App4>com.ea.gp.fifamobile, jp.konami.pesam</App4>
     </IgnoredApps>
     <Trigger>
         <AsyncId>0x00001001, 0x00001002, 0x00001003, 0x00001004</AsyncId>

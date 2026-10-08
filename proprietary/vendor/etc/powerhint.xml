@@ -52,16 +52,16 @@
         <!--CPU-LLC-DDR BWMON - Set hyst_length hist memory 0 -->
         <!--L CPU - Disable schedutil PL -->
         <!--L CPU - Set hispeed load 99 -->
-        <!--L CPU - max freq 1805000 -->
         <!--B CPU - Disable Core Control -->
         <!--GROUP UPMIGRATE - 35 -->
         <!--GROUP DOWNMIGRATE - 30 -->
         <!--UPMIGRATE - 35 85-->
         <!--DOWNMIGRATE - 30 80-->
+        <!--MPCTLV3_SCHED_LOAD_BOOST - -32 -->
         <Config
             Id="0x00001330" Enable="true" Timeout="0" Target="volcano"
-            Resources="0x43034000, 0x21, 0x43024000, 0, 0x41444100, 0, 0x41440100, 0x63, 0x40804100, 0x70D, 0x41008000, 0, 0x40CF4000, 0x0023001E, 0x40CE0000, 0x0023001E, 0x40CE0200, 0x00550050"/>
-      
+            Resources="0x43034000, 0x21, 0x43024000, 0, 0x41444100, 0, 0x41440100, 0x63, 0x41008000, 0, 0x40CF4000, 0x0023001E, 0x40CE0000, 0x0023001E, 0x40CE0200, 0x00550050, 0x40C68000, 0xFFFFFFE0"/>
+
         <!--camera 30fps-->
         <!--CPU-LLC-DDR BWMON - Set sample_ms 33 -->
         <!--CPU-LLC-DDR BWMON - Set hyst_length hist memory 0 -->
@@ -111,7 +111,8 @@
         <Config
             Id="0x00001333" Enable="true" Timeout="0" Target="volcano"
             Resources="0x43034000, 0x10, 0x43020000, 0x64, 0x43024000, 0, 0x4303C000, 0x14A780, 0x40804100, 0x459, 0x41444100, 0, 0x41444000, 0, 0x41440000, 0x63,
-            0x40CE0000, 0x0023001E, 0x40CE0200, 0x00550055, 0x41008000, 0"/>
+            0x40CE0000, 0x0023001E, 0x40CE0200, 0x00550055, 0x41008000, 0, 0x40C68100, 0xFFFFFFE0, 0x40C68110, 0xFFFFFFE0, 0x40C68120, 0xFFFFFFE0,
+            0x40C68130, 0xFFFFFFE0, 0x40C68000, 0xFFFFFFE0,0x40C68010, 0xFFFFFFE0,0x40C68020, 0xFFFFFFE0"/>
 
         <!--video encode HFR 480 fps-->
         <!-- MPCTLV3_ALL_CPUS_PWR_CLPS_DIS, 0x1 -->
@@ -379,6 +380,72 @@
             Id="0x00001340" Enable="true" Timeout="0" Target="volcano"
             Resources="0x40400000, 0x1, 0x40804000, 0XFFF, 0x40800000, 0XFFF,0x40804100, 0XFFF, 0x40800100, 0XFFF,
             0x40800200, 0XFFF, 0x40804200, 0XFFF,0x41000000, 0x3, 0x41000100, 0x4, 0x41000200, 0x1,
-            0x40C1C000, 0x14, 0x40C20000, 0xA, 0x40CA8000, 0x2, 0X42804000, 0x0, 0X42808000, 0x0"/>
+            0x40C1C000, 0x14, 0x40C20000, 0xA, 0x40CA8000, 0x2, 0X42804000, 0x0, 0X42808000, 0x0, 0x40C00000, 0x1"/>
+
+        <!-- camera HFR lowmem tunings -->
+        <!--CPU-LLC-DDR BWMON - Set sample_ms 16 -->
+        <!--CPU-LLC-DDR BWMON - Set io_percent 100 -->
+        <!--CPU-LLC-DDR BWMON - Set hyst_length hist memory 0 -->
+        <!--CPU-LLC-DDR BWMON - Set min_freq 1353 -->
+        <!--L CPU max freq 1113600 -->
+        <!--L CPU - Disable schedutil PL -->
+        <!--B CPU - Disable schedutil PL -->
+        <!--B CPU - Set hispeed load 99 -->
+        <!--UPMIGRATE - 35 85-->
+        <!--DOWNMIGRATE - 30 85-->
+        <!--B CPU - Disable Core Control -->
+        <Config
+            Id="0x00001341" Enable="true" Timeout="0" Target="volcano"
+            Resources="0x43034000, 0x10, 0x43020000, 0x64, 0x43024000, 0, 0x4303C000, 0x14A780, 0x40804100, 0x459, 0x41444100, 0, 0x41444000, 0, 0x41440000, 0x63,
+            0x40CE0000, 0x0023001E, 0x40CE0200, 0x00550055, 0x41008000, 0"/>
+
+        <!-- camera NCF-snapshot tunings-->
+        <!-- MPCTLV3_SCHED_PREFER_SPREAD, 0x2-->
+        <!-- MPCTLV3_SCHED_BOOST, 0x2 -->
+        <!-- MPCTLV3_MAX_FREQ_CLUSTER_BIG_CORE_0, 0xFFF-->
+        <!-- MPCTLV3_MIN_FREQ_CLUSTER_BIG_CORE_0, 0xFFF-->
+        <!-- MPCTLV3_MAX_FREQ_CLUSTER_LITTLE_CORE_0, 0xFFF-->
+        <!-- MPCTLV3_MIN_FREQ_CLUSTER_LITTLE_CORE_0, 0xFFF-->
+        <!-- MPCTLV3_MIN_FREQ_CLUSTER_PLUS_CORE_0, 0xFFF-->
+        <!-- MPCTLV3_MAX_FREQ_CLUSTER_PLUS_CORE_0, 0xFFF-->
+         <Config
+            Id="0x00001342" Enable="true" Timeout="0" Target="volcano"
+            Resources="0x40CA8000, 0x2, 0x40C00000, 0x2, 0x40804000, 0xFFF, 0x40800000, 0xFFF,
+            0x40804100, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x40804200, 0xFFF"/>
+
+        <!-- camera NCF-snapshot gpu tunings-->
+        <!-- MPCTLV3_SCHED_PREFER_SPREAD, 0x2-->
+        <!-- MPCTLV3_SCHED_BOOST, 0x2 -->
+        <!-- MPCTLV3_MAX_FREQ_CLUSTER_BIG_CORE_0, 0xFFF-->
+        <!-- MPCTLV3_MIN_FREQ_CLUSTER_BIG_CORE_0, 0xFFF-->
+        <!-- MPCTLV3_MAX_FREQ_CLUSTER_LITTLE_CORE_0, 0xFFF-->
+        <!-- MPCTLV3_MIN_FREQ_CLUSTER_LITTLE_CORE_0, 0xFFF-->
+        <!-- MPCTLV3_MIN_FREQ_CLUSTER_PLUS_CORE_0, 0xFFF-->
+        <!-- MPCTLV3_MAX_FREQ_CLUSTER_PLUS_CORE_0, 0xFFF-->
+        <!-- GPU - min pwrlevel 4  -->
+        <!-- GPU - max pwrlevel 0  -->
+         <Config
+            Id="0x00001343" Enable="true" Timeout="0" Target="volcano"
+            Resources="0x40CA8000, 0x2, 0x40C00000, 0x2, 0x40804000, 0xFFF, 0x40800000, 0xFFF,
+            0x40804100, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x40804200, 0xFFF, 0x42804000, 0x4, 0x42808000, 0x0"/>
+
+        <!--camera 60fps for back-->
+        <!--CPU-LLC-DDR BWMON - Set sample_ms 16 -->
+        <!--CPU-LLC-DDR BWMON - Set io_percent 100 -->
+        <!--CPU-LLC-DDR BWMON - Set hyst_length hist memory 0 -->
+        <!--CPU-LLC-DDR BWMON - Set min_freq 1353 -->
+        <!--L CPU - Disable schedutil PL -->
+        <!--B CPU - Disable schedutil PL -->
+        <!--B CPU - Set hispeed load 99 -->
+        <!--UPMIGRATE - 35 85-->
+        <!--DOWNMIGRATE - 30 85-->
+        <!--B CPU - Disable Core Control -->
+        <!--AB_SCALE - 50-->
+        <!-- GPU - min pwrlevel 8  -->
+        <!-- GPU - max pwrlevel 0  -->
+        <Config
+            Id="0x00001344" Enable="true" Timeout="0" Target="volcano"
+            Resources="0x43034000, 0x10, 0x43020000, 0x64, 0x43024000, 0, 0x4303C000, 0x14A780, 0x41444100, 0, 0x41444000, 0, 0x41440000, 0x63,
+            0x40CE0000, 0x0023001E, 0x40CE0200, 0x00550055, 0x41008000, 0, 0x43048000, 0x32, 0x42804000, 0x8, 0x42808000, 0x0"/>
     </Powerhint>
 </HintConfigs>

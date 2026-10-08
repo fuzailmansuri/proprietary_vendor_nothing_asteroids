@@ -18,7 +18,7 @@ on boot
     service vendor.qti.light /vendor/bin/hw/vendor.qti.hardware.lights.service
     class hal
     user system
-    group system
+    group system wakelock everybody media_rw
     shutdown critical
 
 # Nothing/Bsp add for ARCA-9806 to notify handset mode to driver @{
@@ -28,3 +28,9 @@ on property:sys.glyph.handset_mode=1
 on property:sys.glyph.handset_mode=0
     write /sys/class/leds/aw20036_led/handset_mode 0
 # @}
+
+# Nothing/Bsp add for NOS-8836 Glyph current parameter integration @{
+on property:sys.glyph.brightness.sub_brightness=*
+    setprop vendor.glyph.brightness.sub_brightness ${sys.glyph.brightness.sub_brightness}
+# @}
+
