@@ -1,0 +1,9 @@
+<manifest version="1.0" type="device">
+    <!-- IFingerprint/default is served by android.hardware.biometrics.fingerprint-service.nothing (v4);
+         this daemon provides only the Goodix companion interface. Declaring both here
+         conflicts at VINTF assembly (IFingerprint/default @3 vs @4). -->
+    <hal format="aidl">
+        <name>vendor.goodix.hardware.biometrics.fingerprint</name>
+        <fqname>IGoodixFingerprintDaemon/default</fqname>
+    </hal>
+</manifest>
