@@ -18,6 +18,10 @@ if [ "$soc_id" -eq 636 ] || [ "$soc_id" -eq 712 ]; then
 elif [ "$soc_id" -eq 640 ]; then
     setprop ro.vendor.qti.soc_name volcano
     setprop ro.vendor.qti.soc_model SM6650
+#ifdef NT_EDIT
+#modify for media_performance_class
+    setprop ro.vendor.media_performance_class 30
+#endif NT_EDIT
 elif [ "$soc_id" -eq 641 ]; then
     setprop ro.vendor.qti.soc_name volcano
     setprop ro.vendor.qti.soc_model SM6650P
@@ -138,4 +142,16 @@ elif [ "$soc_id" -eq 673 ]; then
 elif [ "$soc_id" -eq 672 ]; then
     setprop ro.vendor.qti.soc_name seraph
     setprop ro.vendor.qti.soc_model SAR1250P
+elif [ "$soc_id" -eq 554 ]; then
+    setprop ro.vendor.qti.soc_name neo61
+    setprop ro.vendor.qti.soc_model SAR1115P
+elif [ "$soc_id" -eq 579 ]; then
+    setprop ro.vendor.qti.soc_name neo61
+    setprop ro.vendor.qti.soc_model SAR1130P
+elif [ "$soc_id" -eq 739 ]; then
+    setprop ro.vendor.qti.soc_name neo61
+    setprop ro.vendor.qti.soc_model SAR1165P
+elif [ "$soc_id" -eq 740 ]; then
+    setprop ro.vendor.qti.soc_name neo61
+    setprop ro.vendor.qti.soc_model SAR1180P
 fi

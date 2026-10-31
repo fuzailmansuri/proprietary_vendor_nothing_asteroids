@@ -70,10 +70,17 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.9.0_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.9.0_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
     vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.9.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.9.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
     vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.9.2_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.9.2_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd \
+    vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.40.2_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.40.2_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
+    vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.60.1.2_2.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.60.1.2_2.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
+    vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.60.1.3_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.18_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.60.1.3_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.18_enpuv4.pmd \
+    vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
+    vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
     vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.2_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.2_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd \
     vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.3_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.3_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd \
     vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd \
     vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
+    vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.80.1.5_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.80.1.5_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
+    vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.80.1.5_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.80.1.5_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
     vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__8.0.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__8.0.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
     vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/nothing/asteroids/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd \
@@ -304,7 +311,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/vendor/etc/init/qwesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qwesd.rc \
     vendor/nothing/asteroids/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/nothing/asteroids/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
-    vendor/nothing/asteroids/proprietary/vendor/etc/init/trusteduilistener.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trusteduilistener.rc \
     vendor/nothing/asteroids/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
     vendor/nothing/asteroids/proprietary/vendor/etc/init/vendor.noth.hardware.charge-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.noth.hardware.charge-service.rc \
     vendor/nothing/asteroids/proprietary/vendor/etc/init/vendor.noth.hardware.sensor.sensor_extension-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.noth.hardware.sensor.sensor_extension-service.rc \
@@ -428,13 +434,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
     vendor/nothing/asteroids/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
     vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/json.lst:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/json.lst \
-    vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/milos_qsh_ble_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/milos_qsh_ble_0.json \
-    vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/qrd_hx32062secr_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qrd_hx32062secr_0.json \
-    vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/qrd_icm536xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qrd_icm536xx_0.json \
-    vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/qrd_lsm6dsv_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qrd_lsm6dsv_0.json \
-    vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/qrd_ltr567_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qrd_ltr567_0.json \
-    vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/qrd_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qrd_mmc56x3x_0.json \
-    vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/qrd_och191x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qrd_och191x_0.json \
     vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/qrd_ois_manager.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qrd_ois_manager.json \
     vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/qsh_ble.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_ble.json \
     vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
@@ -494,6 +493,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/volcano_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/volcano_power_0.json \
     vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/volcano_qrd_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/volcano_qrd_icm4x6xx_0.json \
     vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/volcano_qrd_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/volcano_qrd_lsm6dso_0.json \
+    vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/volcano_qrd_lsm6dsv_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/volcano_qrd_lsm6dsv_0.json \
+    vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/volcano_qrd_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/volcano_qrd_mmc56x3x_0.json \
     vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/volcano_qrd_ois_manager_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/volcano_qrd_ois_manager_0.json \
     vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/volcano_qrd_stk3a5x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/volcano_qrd_stk3a5x_0.json \
     vendor/nothing/asteroids/proprietary/vendor/etc/sensors/config/volcano_qrd_tmd2755_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/volcano_qrd_tmd2755_0.json \
@@ -610,7 +611,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/nothing/asteroids/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/nothing/asteroids/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
-    vendor/nothing/asteroids/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
+    vendor/nothing/asteroids/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
+    vendor/nothing/asteroids/proprietary/vendor/lib64/libpnc_cl_program.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/libpnc_cl_program.bin
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
@@ -688,6 +690,7 @@ PRODUCT_PACKAGES += \
     com.qti.node.swmfnr \
     com.qti.node.swmlremosaic \
     com.qti.node.swpdpc \
+    com.qti.node.swpnc \
     com.qti.node.swpreprocess \
     com.qti.node.swregistration \
     com.qti.node.swvrt \
@@ -811,6 +814,7 @@ PRODUCT_PACKAGES += \
     com.qti.chi.offline \
     com.qti.chi.override \
     fingerprint.default \
+    libproviderextension \
     libqtigatekeeper \
     vendor.qti.hardware.alarm-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
@@ -930,6 +934,7 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcolor-default \
+    libcolorful \
     libcom.qti.chinodeutils \
     libcommonchiutils \
     libconfigdb \
@@ -1027,6 +1032,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_mfnr \
     libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
+    libmmcamera_pnc \
     libmmosal_vendor \
     libmmrtpdecoder_vendor \
     libmmrtpencoder_vendor \
@@ -1142,7 +1148,6 @@ PRODUCT_PACKAGES += \
     libqtikeymint \
     librcc \
     librcmask \
-    librender_lib \
     libril-db \
     libril-legacy \
     librilqmimiscservices \
@@ -1172,7 +1177,6 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssd \
     libstfaceunlockppl \
-    libstmobile_effect \
     libswregistrationalgo \
     libsynergy_loc_api \
     libsynx \
@@ -1356,6 +1360,7 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_libarc_htp_driver_skel_so \
     vendor_lib_rfsa_adsp_libbitml_nsp_skel_so \
     vendor_lib_rfsa_adsp_libdsp_streamer_binning_so \
+    vendor_lib_rfsa_adsp_libhdr_skel_so \
     vendor_lib_rfsa_adsp_libhme_dsp_skel_so \
     vendor_lib_rfsa_adsp_libmctfengine_skel_so \
     vendor_lib_rfsa_adsp_libmlawbpostproc_dsp_skel_so \
@@ -1366,6 +1371,7 @@ PRODUCT_PACKAGES += \
     lib-imsvt \
     lib-imsvtextutils \
     lib-imsvtutils \
+    libSurfaceUtil_jni \
     libdiag_system \
     libdiagatbparser_system \
     libdpmctmgr \
@@ -1373,7 +1379,6 @@ PRODUCT_PACKAGES += \
     libdpmframework \
     libdpmtcm \
     libencoderjpeg_jni \
-    libimscamera_jni \
     libimsmedia_jni \
     libmmosal \
     libmmparser_lite \
@@ -1442,7 +1447,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     WfcActivation \
     QCC \
-    QtiTelephonyService \
     MyVerizonServices \
     QtiTelephony \
     WfdService \
@@ -1618,7 +1622,6 @@ PRODUCT_PACKAGES += \
     tftp_server \
     thermal-engine-v2 \
     time_daemon \
-    trusteduilistener \
     vendor.dpmd \
     vendor.qti.qspmhal-service \
     vendor_modprobe \
@@ -1635,7 +1638,7 @@ PRODUCT_PACKAGES += \
     wfdservice64
 
 PRODUCT_PACKAGES += \
-    system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
+    _system_ext_priv-app_ims_lib_arm64_libSurfaceUtil_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     system_ext_priv-app_qcrilmsgtunnel_lib_arm64_libntf_so \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \

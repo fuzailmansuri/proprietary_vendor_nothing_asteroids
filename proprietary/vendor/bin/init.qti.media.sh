@@ -109,7 +109,7 @@ case "$target" in
         setprop vendor.media.target_variant "_msmnile"
         ;;
     "volcano")
-        setprop vendor.mm.target.enable.qcom_parser 16694015
+        setprop vendor.mm.target.enable.qcom_parser 16685823
         case "$soc_hwid" in
             636|640|641|712)
                 #xiao.wu@media.video,2024/11/19,set netflix prop on all Android versions
@@ -151,6 +151,12 @@ case "$target" in
                     fi
                 fi
                 ;;
+            #zhitao.wang add for #BLASP-3828
+            #Set default values to avoid MediaProfile crash issue @{
+            *)
+                setprop vendor.media.target_variant "_volcano_v1"
+                ;;
+            #@}
         esac
         ;;
 esac
