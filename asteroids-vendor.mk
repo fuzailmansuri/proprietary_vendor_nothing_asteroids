@@ -1638,7 +1638,7 @@ PRODUCT_PACKAGES += \
     wfdservice64
 
 PRODUCT_PACKAGES += \
-    _system_ext_priv-app_ims_lib_arm64_libSurfaceUtil_jni_so \
+    system_ext_priv-app_ims_lib_arm64_libSurfaceUtil_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     system_ext_priv-app_qcrilmsgtunnel_lib_arm64_libntf_so \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
