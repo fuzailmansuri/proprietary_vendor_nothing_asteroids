@@ -7775,7 +7775,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.graphics.allocator-V1-ndk",
                 "libjsoncpp",
                 "com.qti.camx.chiiqutils",
-                "android.hardware.graphics.allocator-V2-ndk",
+                "android.hardware.graphics.allocator-V1-ndk",
                 "libbinder_ndk",
                 "libbitmlenginev2",
                 "libcamximageformatutils",
