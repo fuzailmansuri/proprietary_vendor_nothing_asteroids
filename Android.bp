@@ -27946,6 +27946,7 @@ cc_prebuilt_binary {
 cc_prebuilt_binary {
     name: "vendor.qti.camera.provider-service_64",
     owner: "nothing",
+    check_elf_files: false,
     target: {
         android_arm64: {
             srcs: [
@@ -28095,6 +28096,7 @@ cc_prebuilt_binary {
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.lights.service",
     owner: "nothing",
+    check_elf_files: false,
     target: {
         android_arm64: {
             srcs: [
@@ -28106,6 +28108,7 @@ cc_prebuilt_binary {
                 "libcutils",
                 "libhardware",
                 "libbinder_ndk",
+                "libglyph_lights_shim",
                 "android.hardware.light-V2-ndk",
                 "vendor.hardware.light-V1-ndk_platform",
                 "libc++",
