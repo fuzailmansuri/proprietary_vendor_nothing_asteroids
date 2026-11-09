@@ -27141,6 +27141,24 @@ prebuilt_etc_xml {
     system_ext_specific: true,
 }
 
+prebuilt_etc_xml {
+    name: "bttpi-saidl.xml",
+    owner: "nothing",
+    src: "proprietary/vendor/etc/vintf/manifest/bttpi-saidl.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "manifest_non_qmaa.xml",
+    owner: "nothing",
+    src: "proprietary/vendor/etc/vintf/manifest/manifest_non_qmaa.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
 cc_prebuilt_binary {
     name: "ATFWD-daemon",
     owner: "nothing",
