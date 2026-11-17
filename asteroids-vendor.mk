@@ -1624,7 +1624,6 @@ PRODUCT_PACKAGES += \
     time_daemon \
     vendor.dpmd \
     vendor.qti.qspmhal-service \
-    vendor_modprobe \
     wfdhdcphalservice \
     wfdvndservice \
     wifidisplayhalservice \
