@@ -1539,7 +1539,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal-service.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
     bttpi-saidl.xml \
-    manifest_non_qmaa.xml \
     ATFWD-daemon \
     adpl \
     adsprpcd \
