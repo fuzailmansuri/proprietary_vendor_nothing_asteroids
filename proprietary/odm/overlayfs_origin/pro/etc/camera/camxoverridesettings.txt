@@ -78,3 +78,7 @@ overrideScaleLimit=2
 # enable motion vector
 enableMotionAssisted3A=1
 disableASDStatsProcessing=0
+
+# Disable FlashLight thermal Threshold (70000 = 70 Celsius)
+FlashLightThermalThreshold=70000
+
