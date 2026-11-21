@@ -76,3 +76,4 @@ disableASDStatsProcessing=0
 
 # Disable FlashLight thermal Threshold (70000 = 70 Celsius)
 FlashLightThermalThreshold=70000
+disableDynamicFPSControl=TRUE
