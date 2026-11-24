@@ -20,3 +20,4 @@ libffavc.so 64
 libarcsoft_dualcam_refocus_preview.so 64
 libarcsoft_beautyshot.so 64
 # @}
+libcameradecision.so 64
