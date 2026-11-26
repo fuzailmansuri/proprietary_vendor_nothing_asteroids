@@ -7,6 +7,7 @@ soong_namespace {
         "hardware/qcom-caf/common/libqti-perfd-client",
         "hardware/qcom-caf/sm8650",
         "hardware/qcom-caf/wlan",
+        "vendor/nothing/camera",
         "vendor/qcom/opensource/commonsys/display",
         "vendor/qcom/opensource/commonsys-intf/display",
         "vendor/qcom/opensource/dataservices",
@@ -15367,7 +15368,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libutils",
-                "vendor.qti.hardware.camera.postproc@1.0",
+                "vendor.qti.hardware.camera.postproc@1.0-nothing",
                 "libbase",
                 "libhidlbase",
                 "libbinder_ndk",
@@ -22385,6 +22386,34 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.qti.hardware.camera.postproc@1.0-nothing",
+    owner: "nothing",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-nothing.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.camera.postproc@1.0-service-impl",
     owner: "nothing",
     strip: {
@@ -22420,7 +22449,7 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.display.mapperextensions@1.1",
                 "android.hardware.graphics.allocator-V1-ndk",
                 "libjsoncpp",
-                "vendor.qti.hardware.camera.postproc@1.0",
+                "vendor.qti.hardware.camera.postproc@1.0-nothing",
                 "libz",
                 "libc",
                 "libm",
@@ -27924,6 +27953,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/vendor.qti.camera.provider-service_64",
             ],
             shared_libs: [
+                "libntcam_session_shim",
                 "camx.provider-impl",
                 "libbase",
                 "libbinder",
@@ -28073,6 +28103,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/vendor.qti.hardware.lights.service",
             ],
             shared_libs: [
+                "libglyph_lights_shim",
                 "libbase",
                 "liblog",
                 "libcutils",
